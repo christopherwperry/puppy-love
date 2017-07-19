@@ -16,19 +16,35 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   background-image: url("bg.jpg");
 }
-div {
+header {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-top: solid #ff8523 10px;
+  border-bottom: solid #ff8523 25px;
+}
+section {
   background-color: white;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
+  border: solid .5px;
 }
 #site_header {
   background-color: #ff8523;
 }
 
-.main_navigation {
-  border: solid 1px white;
-}
+#first_button, #second_button, #third_button {
+  border: solid white 1px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 10px;
 
 h2 {
   color: #1fabe5;
