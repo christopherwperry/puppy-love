@@ -25,10 +25,11 @@ header {
 }
 section {
   background-color: white;
-  width: 80%;
+  width: 70%;
   margin-left: 10%;
   margin-right: 10%;
-  border: solid .5px;
+  border: solid 1px;
+  padding: 5%;
 }
 #site_header {
   background-color: #ff8523;
@@ -45,6 +46,7 @@ section {
   color: white;
   font-size: 12px;
   margin-bottom: 10px;
+}
 
 h2 {
   color: #1fabe5;
@@ -61,6 +63,7 @@ ul {
 
 table {
   border: solid 1px #1fabe5;
+  border-collapse: collapse;
 }
 
 thead {
@@ -68,12 +71,11 @@ thead {
   color: white;
   padding: 2x;
 }
-
-p[href="#"] {
-  color: #1fabe5;
+td {
+  border: solid 1px #1fabe5;
 }
 
-.submit_container {
+p[href="#"] {
   color: #1fabe5;
 }
 
@@ -84,7 +86,33 @@ form {
 
 .name {
   background-color: #ff8523;
+  font-weight: bold;
   color: white;
   height: 40px;
   width: 80%;
+  padding-top: 20px;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 5px;
+}
+
+textarea {
+  border: solid 1px #1fabe5;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#submit_button {
+  font-weight: bold;
+  color: white;
+  background-color: #1fabe5;
+  border-radius: 3px;
+  border: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
 }
